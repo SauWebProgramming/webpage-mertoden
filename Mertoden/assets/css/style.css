@@ -432,4 +432,80 @@
         border-radius: 100%;
       }
     
+        #urunler .navbar .nav-item .nav-link{
+            color:#000000;
+        }
+        
+        #urunler .navbar .nav-item .nav-link:hover{
+            color:#B42D15;
+        }
+        
+        #urunler .baslik{
+            margin-top:30px;
+            font-size:20px;
+            text-align: center!important;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            color:#681304;
+        }
+        
+        #urunler .product-box {
+            font: 13px/23px;
+            color: #000000;  
+            padding: 40px 0;
+            
+        }
+        
+        #urunler .product-box .prodcontainer{
+            margin: 0 auto;
+            width: 300px;
+            height: 465px;
+            background: white;
+            border-radius: 3px;
+            position: relative
+        }
+        
+        
+        #urunler .featured-products .bilgi {
+            text-align: center;
+            margin-top: 18px;
+        }
+        
+        #urunler .featured-products .ad {
+            font-size: 22px;
+        }
+        
+        #urunler .featured-products .marka {
+            font-size: 16px;
+            color: #5e5454;
+        }
+        
+        #urunler .featured-products .fiyat{
+            font-size: 20px;
+            margin-bottom: 28px;
+        }
+        
+        
+        #urunler .featured-products .button {
+            text-decoration: none;
+            background: #000000;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px 50px;
+            border-radius: 5px;
+            margin-bottom:30px;
+        }
+        
+        #urunler .featured-products .button:hover {
+            background: #a50d0d;
+        }
+        
+        #urunler .product-box
+        {
+            float:left;
+            width:100%;
+            margin-bottom: 25px;
+        }
 
