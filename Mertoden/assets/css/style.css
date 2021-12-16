@@ -1,65 +1,65 @@
-.bg-red{
-    background-color:#B42D15;
-}
+    .bg-red{
+        background-color:#B42D15;
+    }
 
-.color-red{
-    color:#B42D15;
-}
+    .color-red{
+        color:#B42D15;
+    }
 
-.btn-danger:hover{
-    color:#FFFFFF;
-    box-shadow:0px 0px 0px 4px rgba(255, 0, 70, 0.5), rgba(255, 0, 70, 0.5);
-}
+    .btn-danger:hover{
+        color:#FFFFFF;
+        box-shadow:0px 0px 0px 4px rgba(255, 0, 70, 0.5), rgba(255, 0, 70, 0.5);
+    }
 
-html, body{
-    font-family: 'Roboto', sans-serif;
+    html, body{
+        font-family: 'Roboto', sans-serif;
 
-}
+    }
 
-.header-ust .item a{
-    color: #000000;
-}
+    .header-ust .item a{
+        color: #000000;
+    }
 
-.header-ust .item a:hover{
-    color: #B42D15;
-}
+    .header-ust .item a:hover{
+        color: #B42D15;
+    }
 
-.navbar .nav-item{
-    padding:0 15px;
-    font-size: 20px; 
-}
+    .navbar .nav-item{
+        padding:0 15px;
+        font-size: 20px; 
+    }
 
-#anasayfa .navbar .nav-item .nav-link{
-    color:#000000;
-}
+    #anasayfa .navbar .nav-item .nav-link{
+        color:#000000;
+    }
 
-#anasayfa .navbar .nav-item .nav-link:hover{
-    color:#B42D15;
-}
+    #anasayfa .navbar .nav-item .nav-link:hover{
+        color:#B42D15;
+    }
 
- .navbar .sepet-icon{
-    color:#ffffff;
-    padding:5px 10px;
-    border-radius: 5px;
-}
+    .navbar .sepet-icon{
+        color:#ffffff;
+        padding:5px 10px;
+        border-radius: 5px;
+    }
 
-#anasayfa.yeni-sezon-baslik
-{
-    font-size: 36px;
-    color: #42B32F;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
+    #anasayfa.yeni-sezon-baslik
+    {
+        font-size: 36px;
+        color: #42B32F;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 70px;
+    }
 
-#anasyfa.yeni-sezon-baslik:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
+    #anasyfa.yeni-sezon-baslik:after {
+        content: "";
+        position: absolute;
+        width: 7.5%;
+        left: 46.5%;
+        height: 45px;
+        border-bottom: 1px solid #5e5e5e;
+    }
 
 .baslik {
     font-size: 36px;
@@ -202,5 +202,234 @@ html, body{
         color: #FFFFFF;
     }
     
+    #hakkimizda .navbar .nav-item .nav-link{
+        color:#000000;
+    }
 
+    #hakkimizda .navbar .nav-item .nav-link:hover{
+        color:#B42D15;
+    }
+
+
+    #hakkimizda .baslik {
+        font-size: 36px;
+        font-weight: 400;
+        color: #3c3838;
+        padding: 10px;
+        margin-left: -12px;
+        
+    } 
+
+    #hakkimizda .hakkimizda-img
+    { 
+        width:100%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+
+    #iletisim .navbar .nav-item .nav-link{
+        color:#000000;
+    }
+    
+    #iletisim .navbar .nav-item .nav-link:hover{
+        color:#B42D15;
+    }
+    
+    #iletisim .baslik{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+    
+    #iletisim .iletisim {
+        width: 100%;
+        height: auto;
+        background: url(../images/footer.jpg);
+        padding: 40px 0;
+    }
+    #iletisim .iletisim-inner {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 24px;
+    }
+    #iletisim .map iframe {
+        width: 100%;
+        height: 340px;
+        border: none;
+    }
+    
+    #iletisim #contact-section .title{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color:#B42D15;
+    }
+    
+    #iletisim .contact-text {
+        width: 100%;
+        height: auto;
+    }
+    #iletisim .contact-text h1 {
+        font-size: 36px;
+        font-weight: 450;
+        color: #424444;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+    #iletisim .contact-text h2 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #444;
+        margin: 0px;
+        padding-top: 25px;
+    }
+    #iletisim .contact-text h2 i {
+        color: #B42D15;
+    }
+    #iletisim .contact-text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0px;
+        padding-top: 5px;
+        padding-left: 24px;
+        font-weight: 100;
+    }
+
+    contact-section {
+        background: url(../img/contact-bg.jpg);
+        background-size: 100% 100%;
+        padding: 60px 0;
+        margin-bottom: 0px;
+    }
+    
+    
+    #contact-section form .form-control {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-color: #B42D15;
+        padding-left: 20px;
+        margin: 10px 0;
+    }
+    
+    #contact-section form .form-control {
+        resize: none;
+    }
+    
+    #contact-section form .form-control:focus {
+        box-shadow: 0 0 5px 0 #B42D15;
+    }
+    
+    
+    #kayit-section .formdiv {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        
+      }
+      
+    #kayit-section .formdiv body {
+        font-family: 'Nunito', sans-serif;
+        color: #384047;
+      }
+      
+    #kayit-section .formdiv  form {
+        max-width: 300px;
+        margin: 10px auto;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+      }
+      
+      #kayit-section .formdiv  h1 {
+        margin: 0 0 30px 0;
+        text-align: center;
+      }
+      
+      #kayit-section .formdiv  input[type="text"],
+      #kayit-section .formdivinput[type="password"],
+      #kayit-section .formdivinput[type="date"],
+      #kayit-section .formdivinput[type="datetime"],
+      #kayit-section .formdivinput[type="email"],
+      #kayit-section .formdiv input[type="number"],
+      #kayit-section .formdiv input[type="search"],
+      #kayit-section .formdiv input[type="tel"],
+      #kayit-section .formdiv input[type="time"],
+      #kayit-section .formdiv input[type="url"],
+      #kayit-section .formdiv textarea,
+      #kayit-section .formdivselect {
+        background: rgba(255,255,255,0.1);
+        border: none;
+        font-size: 16px;
+        height: auto;
+        margin: 0;
+        outline: 0;
+        padding: 15px;
+        width: 100%;
+        background-color: #e8eeef;
+        color: #8a97a0;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 5px;
+      }
+      
+      #kayit-section .formdivinput[type="radio"],
+      #kayit-section .formdivinput[type="checkbox"] {
+        margin: 0 4px 8px 0;
+      }
+      
+      #kayit-section .formdiv  select {
+        padding: 6px;
+        height: 32px;
+        border-radius: 2px;
+      }
+      
+      #kayit-section .formdiv button {
+        padding: 19px 39px 19px 39px;
+        color: #FFF;
+        background-color: #B42D15;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        border-radius: 5px;
+        width: 100%;
+        border: 1px solid #B42D15;
+        border-width: 1px 1px 3px;
+        box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+        margin-bottom: 10px;
+      }
+      
+      #kayit-section .formdiv fieldset {
+        margin-bottom: 10px;
+        border: none;
+      }
+      
+      #kayit-section .formdivlegend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+      }
+      
+      #kayit-section .formdiv label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      
+      #kayit-section .formdiv label.light {
+        font-weight: 300;
+        display: inline;
+      }
+      
+      #kayit-section .formdiv  .number {
+        background-color: #B42D15;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-right: 4px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+        border-radius: 100%;
+      }
+    
 
