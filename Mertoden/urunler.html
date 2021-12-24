@@ -1,609 +1,751 @@
 <!DOCTYPE html>
 <html lang="tr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <title>Moden Bilişim - Bilgisayara Dair Her Şey</title>
     <link rel="short icon type=" image/png href="assets/img/favicon/logo.png">
 
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!--Font-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!--CDNler-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!--Ürünler-->
     <section id="urunler">
-
-        <header>
-            <div class="header-ust d-felz- justify-content-between pt-2">
-                <div class="d-flex justify-content-between pt-2">
-                    <div class="item px-2">
-                        <p>Takipte Kalın</p>
-                    </div>
-                    <div class="item px-2">
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </div>
-                    <div class="item px-2">
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </div>
-                    <div class="item px-2">
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <div class="item px-2">
-                            <p><i class="fas fa-phone-alt"></i> 0264 291 3050</p>
-                        </div>
-                        <div class="item px-2">
-                            <p><i class="fas fa-map-marker-alt"></i> Serdivan, SAKARYA</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Navbar-->
-                <nav class="navbar navbar-expand-lg navbar-light p-0">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/img/logo.png" width="100px">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Anasayfa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="urunler.html">Ürünler</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="galeri.html">Galeri</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="iletisim.html">İletişim</a>
-                            </li>
-                            <a class="sepet-icon my-auto bg-red" href="#">
-                                <i class="fas fa-shopping-cart"></i>
-                            </a>
-                        </ul>
-                    </div>
-                </nav>
+      <header>
+        <div class="header-ust d-felz- justify-content-between pt-2">
+          <div class="d-flex justify-content-between pt-2">
+            <div class="item px-2">
+              <p>Takipte Kalın</p>
             </div>
-        </header>
-
-        <!--Satış elemanları-->
-        <div class="container">
-            <div class="row">
-                <h2 class="baslik">Fazla Uzağa Bakmana Gerek Yok. Aradığın Tüm Bilgisayarlar Burada.</h2>
-                <!--1.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x848.jpg" height="300" width="300" alt=""
-                                    class="onerilen-urun-resim" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">ROG ZEPHYRUS DUO</div>
-
-                                    <div class="marka">ASUS</div>
-
-                                    <div class="fiyat">$1.749,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!--  prodcontainer bitiş -->
-                        </div> <!--  product-box bitiş-->
-                    </div>
-
-
-                </div>
-
-                <!--2.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x847.jpg" width="300" height="300" alt="cookies"
-                                    class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">TİTAN PRO</div>
-
-                                    <div class="marka">MSI</div>
-
-                                    <div class="fiyat">$1.699,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-
-                </div>
-
-                <!--3.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x760.jpg" width="300" height="300" alt="cookies"
-                                    class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">AERO 17 HDR</div>
-
-                                    <div class="marka">GIGABYTE</div>
-
-                                    <div class="fiyat">$1.439,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-                </div>
-
-                <!--4.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/550x350.jpg" height="300" width="300" alt=""
-                                    class="onerilen-urun-resim" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">ZBOOK STUDIO</div>
-
-                                    <div class="marka">HP</div>
-
-                                    <div class="fiyat">$1.289,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!--  prodcontainer bitiş -->
-                        </div> <!--  product-box bitiş-->
-                    </div>
-
-
-                </div>
-
-                <!--5.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1161x1200.jpg" width="300" height="300" alt="cookies"
-                                    class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">LEGION 7</div>
-
-                                    <div class="marka">LENOVO</div>
-
-                                    <div class="fiyat">$1.199,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-
-                </div>
-
-                <!--6.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x800.jpg" width="300" height="300"
-                                    alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">M15</div>
-
-                                    <div class="marka">ALIENWARE</div>
-
-                                    <div class="fiyat">$1.349,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-                </div>
-
-                <!--7.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/110000040847820.jpg" height="300" width="300"
-                                    alt="" class="onerilen-urun-resim" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">Abra A5</div>
-
-                                    <div class="marka">Monster</div>
-
-                                    <div class="fiyat">₺1.999,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!--  prodcontainer bitiş -->
-                        </div> <!--  product-box bitiş-->
-                    </div>
-
-
-                </div>
-
-                <!--8.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x866.jpg" width="300" height="300"
-                                    alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">OMEN LAPTOP - X</div>
-
-                                    <div class="marka">HP</div>
-
-                                    <div class="fiyat">$1.500,20</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-
-                </div>
-
-                <!--9.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/Tulpar-T5-v14_01-MEK-1060.jpg" width="300" height="300" alt="cookies"
-                                    class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">TULPAR T5</div>
-
-                                    <div class="marka">MONSTER</div>
-
-                                    <div class="fiyat">$1.799,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-                </div>
-
-                <!--10.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x858.jpg" height="300" width="300" alt=""
-                                    class="onerilen-urun-resim" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">RAZER BEAST X25</div>
-
-                                    <div class="marka">MEDION</div>
-
-                                    <div class="fiyat">$1.449,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!--  prodcontainer bitiş -->
-                        </div> <!--  product-box bitiş-->
-                    </div>
-
-
-                </div>
-
-                <!--11.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x1104.jpg" width="300" height="300"
-                                    alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">ROG ZEPHRUS G14</div>
-
-                                    <div class="marka">Asus</div>
-
-                                    <div class="fiyat">$1.899,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-
-                </div>
-
-                <!--12.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x918.jpg" width="300" height="300"
-                                    alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">NITRO 5</div>
-
-                                    <div class="marka">ACER</div>
-
-                                    <div class="fiyat">₺1.899</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-                </div>
-
-                <!--13.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x700.jpg" height="300" width="300" alt=""
-                                    class="onerilen-urun-resim" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">MACBOOK AIR</div>
-
-                                    <div class="marka">APPLE</div>
-
-                                    <div class="fiyat">$969</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!--  prodcontainer bitiş -->
-                        </div> <!--  product-box bitiş-->
-                    </div>
-
-
-                </div>
-
-                <!--14.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x1162.jpg" width="300" height="300"
-                                    alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">MACBOOK PRO</div>
-
-                                    <div class="marka">APPLE</div>
-
-                                    <div class="fiyat">$2.099,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-
-                </div>
-
-                <!--15.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1092x1200.jpg" width="300" height="300"
-                                    alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">LENOVO IDEAPAD</div>
-
-                                    <div class="marka">LENOVO</div>
-
-                                    <div class="fiyat">$1.449,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-                </div>
-
-                <!--16.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x804.jpg" height="300" width="300" alt=""
-                                    class="onerilen-urun-resim" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">THINKBOOK 15</div>
-
-                                    <div class="marka">LENOVO</div>
-
-                                    <div class="fiyat">$2.379,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!--  prodcontainer bitiş -->
-                        </div> <!--  product-box bitiş-->
-                    </div>
-
-
-                </div>
-
-                <!--17.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/1200x783.jpg" width="300"
-                                    height="300" alt="cookies" class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">IDEAPAD FLEX 3</div>
-
-                                    <div class="marka">LENOVO</div>
-
-                                    <div class="fiyat">$999,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-
-                </div>
-
-                <!--18.ürün-->
-                <div class="col-sm">
-                    <div class="featured-products">
-                        <div class="product-box">
-                            <div class="prodcontainer">
-                                <img src="assets/img/550x407.jpg" width="300" height="300" alt="cookies"
-                                    class="hero-image" />
-
-                                <div class="bilgi">
-
-                                    <div class="ad">TECRA S11-11F</div>
-
-                                    <div class="marka">TOSHİBA</div>
-
-                                    <div class="fiyat">$129,90</div>
-
-                                    <a href="#" class="button">Hemen al</a>
-
-                                </div> <!-- bilgi bitiş -->
-                            </div> <!-- prodcontainer bitiş -->
-                        </div> <!-- product-box bitiş-->
-                    </div>
-                </div>
-
+            <div class="item px-2">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
             </div>
+            <div class="item px-2">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="item px-2">
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="item px-2">
+                <p><i class="fas fa-phone-alt"></i> 0264 291 3050</p>
+              </div>
+              <div class="item px-2">
+                <p><i class="fas fa-map-marker-alt"></i> Serdivan, SAKARYA</p>
+              </div>
+            </div>
+          </div>
+          <!--Navbar-->
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logo.png" width="100px" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="urunler.html">Ürünler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeri.html">Galeri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+                <a class="sepet-icon my-auto bg-red" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </ul>
+            </div>
+          </nav>
         </div>
-    <!--Footer-->
-
-<footer id="footer" class="text-center">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-12">
-                    <div class="footer-logo">
-                        <img src="assets/img/logo.png" alt="" width="80%">
-                    </div>
-                    <div class="d-flex  justify-content-between social py-4">
-                        <div class="item"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-                        <div class="item"><a href="#"><i class="fab fa-twitter"></i></a></div>
-                        <div class="item"><a href="#"><i class="fab fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-5 col-12 text-left newsletter">
-                    <div class="title color-red">Bülten</div>
-                    <p>Bültenimize abone olarak indirimlerden ve kampanyalardan haberdar olabilirsiniz.</p>
-                    <form action="">
-                        <input type="email" placeholder="Mail adresinizi giriniz" class="form-control" required>
-                        <button class="btn btn-danger">Bültenimize katılın <i class="far fa-paper-plane"></i></button>
-                    </form>
-                </div>
-                <div class="col-md-4 col-12 text-left">
-                    <div class="title color-red">Adres</div>
-                    <h6>No.9 Altınışık Sk. 54235,Serdivan,SAKARYA </h6>
-                    <div class="title color-red">Email</div>
-                    <h6>info@modenbil.com</h6>
-                    <div class="title color-red ">İletişim</div>
-                    <h6>0264 291 3050</h6>
-                </div>
+        <div class="breadcrumb">
+          <div class="breadcrumb">
+            <div class="container mb-3">
+              <ul class="breadcrumb">
+                <li class="page-item">
+                  <a class="page-link" href="Index.html"
+                    ><i class="fa fa-home"></i> <small>Anasayfa</small>
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="urunler.html"
+                    ><i class="fa fa-file mr-1 ml-0"></i
+                    ><small>Ürünler </small></a
+                  >
+                </li>
+              </ul>
             </div>
-  
+          </div>
         </div>
-    </div>
-  
-    <div class="footer-bottom">
-        <div class="container">
+      </header>
+
+      <!--Satış elemanları-->
+      <div class="container">
+        <div class="row">
+          <h2 class="baslik">
+            Fazla Uzağa Bakmana Gerek Yok. Aradığın Tüm Bilgisayarlar Burada.
+          </h2>
+          <!--1.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x848.jpg"
+                    height="300"
+                    width="300"
+                    alt=""
+                    class="onerilen-urun-resim"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">ROG ZEPHYRUS DUO</div>
+
+                    <div class="marka">ASUS</div>
+
+                    <div class="fiyat">$1.749,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!--  prodcontainer bitiş -->
+              </div>
+              <!--  product-box bitiş-->
+            </div>
+          </div>
+
+          <!--2.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x847.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">TİTAN PRO</div>
+
+                    <div class="marka">MSI</div>
+
+                    <div class="fiyat">$1.699,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--3.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x760.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">AERO 17 HDR</div>
+
+                    <div class="marka">GIGABYTE</div>
+
+                    <div class="fiyat">$1.439,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--4.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/550x350.jpg"
+                    height="300"
+                    width="300"
+                    alt=""
+                    class="onerilen-urun-resim"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">ZBOOK STUDIO</div>
+
+                    <div class="marka">HP</div>
+
+                    <div class="fiyat">$1.289,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!--  prodcontainer bitiş -->
+              </div>
+              <!--  product-box bitiş-->
+            </div>
+          </div>
+
+          <!--5.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1161x1200.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">LEGION 7</div>
+
+                    <div class="marka">LENOVO</div>
+
+                    <div class="fiyat">$1.199,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--6.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x800.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">M15</div>
+
+                    <div class="marka">ALIENWARE</div>
+
+                    <div class="fiyat">$1.349,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--7.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/110000040847820.jpg"
+                    height="300"
+                    width="300"
+                    alt=""
+                    class="onerilen-urun-resim"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">Abra A5</div>
+
+                    <div class="marka">Monster</div>
+
+                    <div class="fiyat">₺1.999,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!--  prodcontainer bitiş -->
+              </div>
+              <!--  product-box bitiş-->
+            </div>
+          </div>
+
+          <!--8.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x866.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">OMEN LAPTOP - X</div>
+
+                    <div class="marka">HP</div>
+
+                    <div class="fiyat">$1.500,20</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--9.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/Tulpar-T5-v14_01-MEK-1060.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">TULPAR T5</div>
+
+                    <div class="marka">MONSTER</div>
+
+                    <div class="fiyat">$1.799,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--10.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x858.jpg"
+                    height="300"
+                    width="300"
+                    alt=""
+                    class="onerilen-urun-resim"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">RAZER BEAST X25</div>
+
+                    <div class="marka">MEDION</div>
+
+                    <div class="fiyat">$1.449,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!--  prodcontainer bitiş -->
+              </div>
+              <!--  product-box bitiş-->
+            </div>
+          </div>
+
+          <!--11.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x1104.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">ROG ZEPHRUS G14</div>
+
+                    <div class="marka">Asus</div>
+
+                    <div class="fiyat">$1.899,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--12.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x918.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">NITRO 5</div>
+
+                    <div class="marka">ACER</div>
+
+                    <div class="fiyat">₺1.899</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--13.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x700.jpg"
+                    height="300"
+                    width="300"
+                    alt=""
+                    class="onerilen-urun-resim"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">MACBOOK AIR</div>
+
+                    <div class="marka">APPLE</div>
+
+                    <div class="fiyat">$969</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!--  prodcontainer bitiş -->
+              </div>
+              <!--  product-box bitiş-->
+            </div>
+          </div>
+
+          <!--14.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x1162.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">MACBOOK PRO</div>
+
+                    <div class="marka">APPLE</div>
+
+                    <div class="fiyat">$2.099,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--15.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1092x1200.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">LENOVO IDEAPAD</div>
+
+                    <div class="marka">LENOVO</div>
+
+                    <div class="fiyat">$1.449,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--16.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x804.jpg"
+                    height="300"
+                    width="300"
+                    alt=""
+                    class="onerilen-urun-resim"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">THINKBOOK 15</div>
+
+                    <div class="marka">LENOVO</div>
+
+                    <div class="fiyat">$2.379,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!--  prodcontainer bitiş -->
+              </div>
+              <!--  product-box bitiş-->
+            </div>
+          </div>
+
+          <!--17.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/1200x783.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">IDEAPAD FLEX 3</div>
+
+                    <div class="marka">LENOVO</div>
+
+                    <div class="fiyat">$999,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+
+          <!--18.ürün-->
+          <div class="col-sm">
+            <div class="featured-products">
+              <div class="product-box">
+                <div class="prodcontainer">
+                  <img
+                    src="assets/img/550x407.jpg"
+                    width="300"
+                    height="300"
+                    alt="cookies"
+                    class="hero-image"
+                  />
+
+                  <div class="bilgi">
+                    <div class="ad">TECRA S11-11F</div>
+
+                    <div class="marka">TOSHİBA</div>
+
+                    <div class="fiyat">$129,90</div>
+
+                    <a href="#" class="button">Hemen al</a>
+                  </div>
+                  <!-- bilgi bitiş -->
+                </div>
+                <!-- prodcontainer bitiş -->
+              </div>
+              <!-- product-box bitiş-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+
+      <footer id="footer" class="text-center">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-12">
+                <div class="footer-logo">
+                  <img src="assets/img/logo.png" alt="" width="80%" />
+                </div>
+                <div class="d-flex justify-content-between social py-4">
+                  <div class="item">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-12 text-left newsletter">
+                <div class="title color-red">Bülten</div>
+                <p>
+                  Bültenimize abone olarak indirimlerden ve kampanyalardan
+                  haberdar olabilirsiniz.
+                </p>
+                <form action="">
+                  <input
+                    type="email"
+                    placeholder="Mail adresinizi giriniz"
+                    class="form-control"
+                    required
+                  />
+                  <button class="btn btn-danger">
+                    Bültenimize katılın <i class="far fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="col-md-4 col-12 text-left">
+                <div class="title color-red">Adres</div>
+                <h6>No.9 Altınışık Sk. 54235,Serdivan,SAKARYA</h6>
+                <div class="title color-red">Email</div>
+                <h6>info@modenbil.com</h6>
+                <div class="title color-red">İletişim</div>
+                <h6>0264 291 3050</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
             <div class="copyright">
-                <p>&copy; 2020 Tüm hakları saklıdır. Moden Bilişim</p>
+              <p>&copy; 2020 Tüm hakları saklıdır. Moden Bilişim</p>
             </div>
+          </div>
         </div>
-    </div>
-  
-  </footer>
-  <!--Footer bitiş-->
-  
-  </section>
-  <!--urunler bitiş-->
+      </footer>
+      <!--Footer bitiş-->
+    </section>
+    <!--urunler bitiş-->
   </body>
-  
+
   <!-- scriptler -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</html>
